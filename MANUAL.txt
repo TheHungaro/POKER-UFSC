@@ -1,0 +1,26 @@
+Alunos:
+
+Benedek U Kovacs
+Gustavo Beretta Goncalves
+
+O Poker UFSC requer Python instalado em seu sistema. O código utiliza a biblioteca Pygame. Você pode instalá-la usando o pip executando obcomando pip install pygame na sua IDE.
+Certifique-se de ter a seguinte estrutura de diretórios:
+
+- pasta_do_projeto/
+    - main.py
+    - pokertable.py
+    - deck.py
+    - card.py
+    - table.png
+    - cards/
+        - card_back.png
+        - hearts_1.png
+        - hearts_2.png
+        ...
+
+Execução:
+Abra um terminal e navegue até a pasta do projeto. Em seguida, execute o arquivo main.py.
+As cartas serão embaralhadas e organizadas numa pilha automaticamente no início do jogo.
+Para mover uma carta: clique e arraste a carta com o botão esquerdo do mouse.
+Para virar uma carta: clique com o botão direito do mouse na carta.
+Para sair do jogo: feche a janela do jogo ou pressione Ctrl+C no terminal.
